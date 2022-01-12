@@ -41,7 +41,7 @@
           <text value="Price"/>
         </properties>
       </component>
-      <component id="f1834" class="javax.swing.JTextField" binding="txtName">
+      <component id="f1834" class="javax.swing.JTextField" binding="txtBrand">
         <constraints>
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -49,7 +49,7 @@
         </constraints>
         <properties/>
       </component>
-      <component id="b0fbb" class="javax.swing.JTextField" binding="txtSalary">
+      <component id="b0fbb" class="javax.swing.JTextField" binding="txtModel">
         <constraints>
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -57,7 +57,7 @@
         </constraints>
         <properties/>
       </component>
-      <component id="26ca7" class="javax.swing.JTextField" binding="txtMobile">
+      <component id="26ca7" class="javax.swing.JTextField" binding="txtPrice">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -150,7 +150,7 @@
           <text value="Engine HP"/>
         </properties>
       </component>
-      <component id="1e21" class="javax.swing.JTextField">
+      <component id="1e21" class="javax.swing.JTextField" binding="txtYearOfProduction">
         <constraints>
           <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -158,7 +158,7 @@
         </constraints>
         <properties/>
       </component>
-      <component id="6440a" class="javax.swing.JTextField">
+      <component id="6440a" class="javax.swing.JTextField" binding="txtEngineType">
         <constraints>
           <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -166,7 +166,7 @@
         </constraints>
         <properties/>
       </component>
-      <component id="d8bb3" class="javax.swing.JTextField">
+      <component id="d8bb3" class="javax.swing.JTextField" binding="txtEngineCapacity">
         <constraints>
           <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -174,7 +174,7 @@
         </constraints>
         <properties/>
       </component>
-      <component id="68c60" class="javax.swing.JTextField">
+      <component id="68c60" class="javax.swing.JTextField" binding="txtEngineHp">
         <constraints>
           <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
