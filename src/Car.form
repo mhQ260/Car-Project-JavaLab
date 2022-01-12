@@ -73,7 +73,7 @@
           <text value="Save"/>
         </properties>
       </component>
-      <scrollpane id="39eae">
+      <scrollpane id="39eae" binding="table">
         <constraints>
           <grid row="1" column="2" row-span="8" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
