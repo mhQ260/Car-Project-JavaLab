@@ -192,5 +192,33 @@ public class Car {
 
             }
         });
+
+        deleteButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                String id;
+                id = txtId.getText();
+
+                try {
+                    pst = con.prepareStatement("delete from cars where id = ?");
+
+                    pst.setString(1, id);
+
+                    pst.executeUpdate();
+                    JOptionPane.showMessageDialog(null, "Deleted!");
+                    tableLoad();
+                    txtBrand.setText("");
+                    txtModel.setText("");
+                    txtPrice.setText("");
+                    txtYearOfProduction.setText("");
+                    txtEngineType.setText("");
+                    txtEngineCapacity.setText("");
+                    txtEngineHp.setText("");
+                } catch (SQLException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
     }
 }
